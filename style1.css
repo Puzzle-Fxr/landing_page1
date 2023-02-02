@@ -1,5 +1,65 @@
 /*Stylesheet*/
-img {
-    height: 200px;
-    width: 350px;
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section1 {
+    /*
+    background-color: #1f2937;
+    */
+    padding: 0px 150px 100px 150px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    /*margin: 0px 150px 0px 150px;*/
+}
+.headerl {
+    font-size: 24px;
+    /*color: #f9faf8;*/
+}
+.headerlinks {
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+.content1 {
+    display: flex;
+    gap: 80px;
+    padding: 90px 0px 90px 0px;
+}
+.secondhero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero1 {
+    font-size: 48px;
+    /*color: #f9faf8*/
+}
+.herohook {
+    font-size: 18px;
+    /*color: #e5e7eb;*/
+}
+.b1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px 30px 8px 30px;
+    font-size: large;
+}
+.img1 {
+    height: 350px;
+    width: 675px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    /*color: #e5e7eb;*/
 }
