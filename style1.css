@@ -94,3 +94,27 @@ a {
     border-style: solid;
     border-color: #3882f6;
 }
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.motivation {
+    max-width: 60%;
+    padding: 80px 0px 80px 0px;
+}
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.signed {
+    display: flex;
+    justify-content: end;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
