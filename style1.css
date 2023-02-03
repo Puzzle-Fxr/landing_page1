@@ -131,13 +131,17 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px 20px 80px;
+    padding: 20px 100px 20px 100px;
     gap: 200px;
 }
 .boxbutton {
-    
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #e5e7eb;
     border-radius: 8px;
-    padding: 5px 40px 5px 40px;
+    padding: 10px 50px 10px 50px;
+    color: #e5e7eb;
+    font-size: 24px;
 }
 .footer {
     background-color: #1f2937;
@@ -146,4 +150,17 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px 0px 20px 0px;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+}
+.title1 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.subtext1 {
+    font-size: 20px;
+    color: #e5e7eb;
 }
