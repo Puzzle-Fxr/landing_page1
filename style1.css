@@ -12,6 +12,8 @@ body {
     background-color: #1f2937;
     */
     padding: 0px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     display: flex;
