@@ -1,6 +1,7 @@
 /*Stylesheet*/
 body {
     height: 100vh;
+    width: 200vh;
     margin: 0;
     display: flex;
     flex-direction: column;
